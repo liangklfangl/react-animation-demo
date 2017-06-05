@@ -1,0 +1,41 @@
+{
+  "name": "react-animation-demo",
+  "version": "1.0.0",
+  "description": "参考文献:",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "css": "wcf --dev --devServer --htmlTemplate ./index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/liangklfangl/react-animation-demo.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/liangklfangl/react-animation-demo/issues"
+  },
+  "entry": {
+    "index": "./src/index.js"
+  },
+  "dependencies": {
+    "babel-core": "^6.5.2",
+    "babel-loader": "^6.4.1",
+    "babel-plugin-add-module-exports": "^0.1.2",
+    "babel-plugin-react-transform": "^2.0.2",
+    "babel-plugin-transform-decorators-legacy": "^1.3.4",
+    "babel-plugin-transform-react-display-name": "^6.3.13",
+    "babel-plugin-transform-runtime": "^6.3.13",
+    "babel-plugin-typecheck": "^3.9.0",
+    "babel-polyfill": "^6.23.0",
+    "babel-preset-es2015": "^6.3.13",
+    "babel-preset-react": "^6.3.13",
+    "babel-preset-stage-0": "^6.3.13",
+    "react": "^15.5.4",
+    "react-dom": "^15.5.4",
+    "react-transition-group": "^1.1.3",
+    "webpack": "^2.6.1"
+  },
+  "homepage": "https://github.com/liangklfangl/react-animation-demo#readme"
+}
